@@ -96,6 +96,7 @@ class Policy:
             ],
         )
 
+
     @classmethod
     def tiered(cls) -> Policy:
         """Pre-configured policy with key-pattern-scoped detector rules.
